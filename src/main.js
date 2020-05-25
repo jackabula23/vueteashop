@@ -45,9 +45,12 @@ Vue.filter('currency' ,currencyFilter);
 Vue.filter('date' ,dateFilter);
 
 axios.defaults.withCredentials = true;
+
 /* eslint-disable no-new */
 new Vue({
+  i18n,
   el: '#app',
+  router,
   components: { App },
   template: '<App/>'
 })
