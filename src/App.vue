@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  // created() {
+  //   const api = `${process.env.APIPATH}/api/${process.env.CUSTOMPATH}/products`;
+  //   console.log(process.env.APIPATH ,process.env.CUSTOMPTH);
+  //   // 'https://vue-course-api.hexschool.io/api/jackyu/products'
+  //   // API伺服器路徑
+  //   // 所申請的APIPath
+  //   this.$http.get(api).then((response) => {
+  //     console.log(response.data)
+  //   });
+  // }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  @import "./assets/all";
 </style>

@@ -2,7 +2,7 @@
   "name": "vueteashop",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "jackabula23 <57828620+jackabula23@users.noreply.github.com>",
+  "author": "jackabula23 <jackabula23@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,7 +10,18 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.2"
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.5.2",
+    "vue-axios": "^2.1.5",
+    "vue-i18n": "^8.17.7",
+    "vue-loading-overlay": "^3.3.2",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.1.6"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -37,6 +48,7 @@
     "postcss-loader": "^2.0.8",
     "postcss-url": "^7.2.1",
     "rimraf": "^2.6.0",
+    "sass-loader": "^7.3.1",
     "semver": "^5.3.0",
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
